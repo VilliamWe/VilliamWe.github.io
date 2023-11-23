@@ -1,0 +1,69 @@
+/*Header*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo{
+    /* Включаем flexbox */
+    display: flex; 
+    /* Направление расположение блоков относительно Main axis слева направо */
+    flex-direction: row;
+    /* Расположение блоков относительно Cross axis по центру */
+    align-items: center;
+    /* Размеп блок с лого и название (его вес) относительно других элементов */
+    flex-grow: 1;
+}
+.logo-img{
+    margin-right: 40px;
+
+}
+.header-menu{
+flex-grow: 3;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* footer */
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.footer-logo{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+.footer-search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.footer-search-input{
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10%;
+    border-bottom: none;
+}
+.footer-search-buttom{
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+}

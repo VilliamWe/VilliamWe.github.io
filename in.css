@@ -1,0 +1,95 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+.logo-title{
+    color: red;
+}
+.menu-mi{
+    color: white;
+    text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+.container{
+    max-width: 1100px;
+    padding: 15px;
+    margin: auto;
+}
+/*header*/
+.header {
+    width: 100%;
+    color: black;
+    padding: 20px;
+    background: rgb(123, 123, 220);
+    box-sizing: border-box;
+}
+.menu-item{list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+.banner-title, .banner-description{
+    text-align: center;
+    color: black;
+
+}
+.banner-title{
+    font-size: 48px;
+    color: red;
+}
+.banner-section{
+    padding: 100px 0;
+    background: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*cards*/
+.cards-section{
+    padding: 50px 0px;
+
+}
+.cards-title, .cards-description{
+color:black;
+text-align: center;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 8px rgb(25, 25, 74); 
+    text-align: center;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: none;
+}
+.card-buttom{
+    text-align: center;
+    background: black;
+    padding: 10px 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+/*footer*/
+.footer{
+    background: url(img/footer.jpeg);
+    background-size: cover;
+    padding: 100px 0px;
+
+}
+.copyright{
+    color: white;
+}
